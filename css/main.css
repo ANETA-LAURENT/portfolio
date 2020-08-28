@@ -18,7 +18,7 @@
   font-weight: 800;
   transition: all 0.5s;
   border: none;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: #ccc 0.3em 0.3em 0.3em;
   cursor: pointer; }
 
@@ -26,10 +26,9 @@
   color: #f4f4f4;
   background-color: #c95c5c;
   display: inline-block;
-  padding: 0.8rem;
+  padding: 0.5rem;
   font-size: 1.1rem;
-  font-weight: 900;
-  margin-top: 0.5rem; }
+  font-weight: 800; }
 
 .btn-light {
   color: #333;
@@ -243,7 +242,7 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem; }
+  padding: 1rem; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -261,26 +260,23 @@ img {
       border-color: #c95c5c; }
 
 #header-home {
-  background: url("../img/showcase.png");
+  background: url("../img/showcase2.png");
   height: 100vh;
   color: #696060;
   background-size: cover;
   background-position: center; }
-  #header-home .header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 14rem; }
-    #header-home .header-content span {
-      font-size: 2.5rem;
-      color: #363535; }
 
 #header-inner {
   background: #fff;
   height: 5.5rem;
   border-bottom: 3px solid #c95c5c; }
+
+#about-a .box {
+  margin-top: -1.2rem;
+  height: 2.5rem; }
+  #about-a .box span {
+    font-size: 2.5rem;
+    color: #363535; }
 
 #about-a .about-info {
   display: grid;
