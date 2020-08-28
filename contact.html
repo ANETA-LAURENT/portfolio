@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <title>Aneta LAURENT | Développeuse web</title>
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/1.jpg" alt="Mon portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="work.html"> Projets</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"
+      />
+      <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
+      <script>
+        window.addEventListener("load", function () {
+          window.wpcc.init({
+            border: "thin",
+            corners: "small",
+            colors: {
+              popup: {
+                background: "#ffe4e1",
+                text: "#000000",
+                border: "#c25e5e",
+              },
+              button: { background: "#c25e5e", text: "#ffffff" },
+            },
+            position: "top",
+            transparency: "5",
+            content: {
+              message:
+                "Nous utilisons des cookies afin d'améliorer l’expérience de nos utilisateurs. Les cookies sont des données qui sont téléchargés ou stockés sur votre ordinateur ou sur tout autre appareil. \n",
+              button: "Ok",
+              link: "Pour savoir plus...",
+            },
+          });
+        });
+      </script>
+    </header>
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Formulaire de contact</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          N'hésitez pas à me contacter pour plus d'informations:
+        </p>
+        <form action="process.php" method="POST">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Votre nom"
+              name="name"
+              required
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Votre email"
+              name="email"
+              required
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Votre message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-main">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <!--     <section id="contact-b" class="py-3 bg-light">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email</h3>
+          </div>
+          <div>
+            <i class="fab fa-linkedin fa-3x"></i>
+            <h3>Linkedin</h3>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-3x"></i>
+            <h3>Arras</h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container mt-2">
+        <a href="mentions.html">Mentions Légales</a>
+        <p>Copyright: Aneta LAURENT &copy; 2020</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/anetalaurent/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/ANETA-LAURENT"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://medium.com/@anetado" target="_blank"
+                ><i class="fab fa-medium"></i></i
+              ></a>
+          <a href="https://www.instagram.com/anixibelle/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>
