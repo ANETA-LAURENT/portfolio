@@ -241,8 +241,7 @@ img {
 
 #main-nav {
   display: flex;
-  justify-content: space-between;
-  background-color: pink; }
+  justify-content: space-between; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
