@@ -242,8 +242,7 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-margin-bottom:2rem;}
+ background-color:grey;}
   #main-nav ul {
     display: flex; }
   #main-nav li {
