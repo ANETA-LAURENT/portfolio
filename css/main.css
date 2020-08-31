@@ -242,7 +242,8 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem; }
+  padding: 1rem;
+margin-bottom:2rem;}
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -384,7 +385,8 @@ img {
     background: #c95c5c; }
   #contact-a .text-fields {
     display: grid;
-    grid-template-areas: "name email" "message message";
+    grid-template-areas: "name email"
+ "message message";
     grid-gap: 1.2rem;
     margin-bottom: 1.2rem; }
     #contact-a .text-fields .name-input {
