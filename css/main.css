@@ -566,7 +566,7 @@ img {
   color: #696060;
   background-size: cover;
   background-position: center;
-  display: grid;
+  display:grid;
   justify-content: center;
   align-content: center;
 }
