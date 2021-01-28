@@ -12,7 +12,10 @@
   overflow: hidden;
 }
 
-.btn-dark, .btn-light, .btn-main {
+.btn-dark,
+.btn-light,
+.btn-main,
+.btn-lm {
   display: inline-block;
   padding: 0.5rem;
   font-size: 1.1rem;
@@ -45,9 +48,9 @@
   background-color: #333;
 }
 
-button[class^=btn-]:hover,
-a[class^=btn-]:hover,
-input[class^=btn-]:hover {
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
   background-color: #5a0404;
 }
 
@@ -220,7 +223,8 @@ input[class^=btn-]:hover {
   z-index: 1;
   color: #fff;
   transform: translateY(-20%);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
+    transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
   transition-delay: 300ms;
 }
 .item-text-wrap {
@@ -467,7 +471,7 @@ img {
 #contact-a .text-fields .text-input {
   padding: 0.5rem 1rem;
 }
-#contact-a .text-fields button[type=submit] {
+#contact-a .text-fields button[type="submit"] {
   width: 50%;
 }
 
@@ -515,7 +519,7 @@ img {
   }
 
   #contact-b .contact-info,
-.items {
+  .items {
     grid-template-columns: 1fr;
   }
 
@@ -555,6 +559,28 @@ img {
     }
   }
 } */
+/**********Lettre de motivation page******************/
+#lm {
+  background: url("../img/showcaseLM.png");
+  height: 100vh;
+  color: #696060;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-lm {
+  color: #f4f4f4;
+  background-color: #c95c5c;
+  display: inline-block;
+  padding: 0.9rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 501px) and (max-width: 588px) {
   #header-home .header-content {
     padding-top: 7rem;
