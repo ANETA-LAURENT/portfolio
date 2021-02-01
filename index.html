@@ -65,12 +65,28 @@
           </ul>
         </nav>
       </div>
-      <!-- <div class="header-content">
-        <a href="work.html" target="_blank"
-          ><div class="btn-main mt-1">Voir mes projets</div></a
-        >
-      </div> -->
+      <div class="box">
+        <h1>Aneta LAURENT</h1>
+        <p>Développeuse Web</p>
+      </div>
     </header>
+
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "64f1b199-8a22-47e6-87a1-de8e63708a68", // The ID of this integration.
+        region: "eu-de", // The region your integration is hosted in.
+        serviceInstanceID: "bd474800-8c15-4459-832a-196158f18a37", // The ID of your service instance.
+        onLoad: function (instance) {
+          instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
     <!-- Footer -->
     <footer></footer>
   </body>
