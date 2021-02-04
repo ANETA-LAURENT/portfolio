@@ -8,7 +8,7 @@
 } */
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
 .container {
-  max-width: 1280px;
+  max-width: 1100px;
   padding: 0 1.5rem 1rem;
   margin: auto;
   overflow: hidden;
@@ -143,7 +143,7 @@ input[class^=btn-]:hover {
   margin: 0 auto 1rem auto;
 }
 
-.fab {
+.icon {
   margin-right: 0.9rem;
   border: 2px #fff solid;
   border-radius: 50%;
@@ -154,13 +154,20 @@ input[class^=btn-]:hover {
   color: #fff;
   text-align: right;
 }
-.fab:hover {
+.icon:hover {
   background: #1987b3;
+}
+
+.container2 {
+  max-width: 1100px;
+  padding: 0 1.5rem 1rem;
+  margin: auto;
+  overflow: hidden;
 }
 
 .items {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto auto;
   grid-gap: 0.3rem;
 }
 
@@ -370,7 +377,8 @@ img {
   height: 100%;
 }
 #about-home #about-b .card,
-#about-home #about-b .card2 {
+#about-home #about-b .card2,
+#about-home #about-b .card3 {
   width: 100vmin;
   height: 50vmin;
   display: flex;
@@ -482,6 +490,22 @@ img {
 }
 #about-home #about-b .next:after {
   content: "↓";
+}
+#about-home #about-b .card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#about-home #about-b .container3 {
+  display: flex;
+  align-items: bottom;
+  justify-content: space-around;
+}
+#about-home #about-b .reseaux a {
+  color: #8ec8df;
+  font-size: 55px;
+  padding: 40px;
 }
 
 #projet-a .projet-info {
