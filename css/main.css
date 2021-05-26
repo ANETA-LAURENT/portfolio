@@ -629,9 +629,10 @@ img {
 
 .btn-lm {
   background-color: black;
-  display: inline-block;
-  padding: 0.5rem;
-  font-size: 1.5rem;
+  padding: 2rem 0.5rem;
+  font-size: 1.8rem;
+  color: #fefefe;
+  margin-left: -18px;
 }
 
 @media (max-width: 750px) {
